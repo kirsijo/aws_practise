@@ -13,13 +13,4 @@ jobs:
           persist-credentials: false
 
       - name: Install 🔧
-        run: npm install
-
-      - name: Lint 🧐
-        run: npm run lint
-
-      - name: Build 🏗️
-        run: npm run build
-
-      - name: Test 🚨
-        run: npm test
+        run: echo 'Hello world'
